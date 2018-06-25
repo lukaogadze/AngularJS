@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <ul ng-app="myApp" ng-controller="namesCtrl">
+        <li ng-repeat="x in names">
+            {{x | myFormat}}
+        </li>
+    </ul>
+
+    <script src="../../../Scripts/angular.min..js"></script>
+    <script src="js/app.js"></script>
+
+    <p>Make your own filters.</p>
+    <p>This filter, called "myFormat", will uppercase every other character.</p>
+</body>
+</html>

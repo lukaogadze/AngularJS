@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div ng-app="myApp", ng-controller="namesCtrl">
+        <ul>
+            <li ng-repeat="x in names | filter : 'i'">
+                {{x}}
+            </li>
+        </ul>
+    </div>
+
+    <script src="../../../Scripts/angular.min..js"></script>
+    <script src="js/app.js"></script>
+    <p>This example displays only the names containing the letter "i"</p>
+</body>
+</html>

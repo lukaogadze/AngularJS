@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body ng-app="myApp">
+
+    <p>The rootScope's favorite color:</p>
+    <h1>{{color}}</h1>
+    <div ng-controller="myCtrl">
+        <p>The scope of the controller's favorite color:</p>
+        <h1>{{color}}</h1>
+    </div>
+
+    <p>The rootScope's favorite color is still: </p>
+    <h1>{{color}}</h1>
+
+    <script src="js/app.js"></script>
+    <p>Notice that controller's color variable does not overwrite the rootScope's color value</p>
+    <script src="../../../Scripts/angular.min..js"></script>
+</body>
+</html>    
