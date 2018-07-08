@@ -1,0 +1,7 @@
+﻿form.ng-pristine {
+    background-color: lightblue;
+}
+
+form.ng-dirty {
+    background-color: pink;
+}
