@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS</title>
+</head>
+<body>
+
+    <div ng-app="">
+        <form>
+            Check to show a header:
+            <input type="checkbox" ng-model="myVar" />
+        </form>
+        <h1 ng-show="myVar">My Header</h1>
+    </div>
+
+    <p>The header's ng-show attribute is set to true when the checkbox is checked.</p>
+
+    <script src="../../../Scripts/angular.min..js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
