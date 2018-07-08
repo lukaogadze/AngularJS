@@ -6,7 +6,8 @@ var Http;
         const app = angular.module('myApp', []);
         app.controller('customersCtrl', function ($scope, $http) {
             // https://www.w3schools.com/angular/customers.php
-            $http.get("http://customersdata.getsandbox.com/customers").then(function (response) {
+            // http://customersdata.getsandbox.com/customers
+            $http.get("https://www.w3schools.com/angular/customers.php").then(function (response) {
                 $scope.myData = response.data.records;
             });
         });
