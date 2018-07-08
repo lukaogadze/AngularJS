@@ -1,0 +1,3 @@
+namespace DOM.Example1 {
+
+}
