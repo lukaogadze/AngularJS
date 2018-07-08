@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS</title>
+</head>
+<body>
+
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <p>Select a car:</p>
+        <select ng-model="selectedCar" ng-options="x for (x, _) in cars"></select>
+        <h1>You selected: {{selectedCar}}</h1>
+    </div>
+
+    <p>This example demonstrates the use of an object as the data source when creating a dropdown list.</p>
+
+    <script src="../../../Scripts/angular.min..js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
