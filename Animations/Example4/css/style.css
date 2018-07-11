@@ -1,0 +1,16 @@
+@keyframes myCange {
+  from {
+    height: 100px;
+  } to {
+    height: 0;
+  }
+}
+
+div {
+  height: 100px;
+  background-color: lightblue;
+}
+
+div.ng-hide {
+  animation: 0.5s myCange;
+}

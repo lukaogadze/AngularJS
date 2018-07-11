@@ -1,0 +1,2 @@
+namespace Animations.Example4 {     
+}
